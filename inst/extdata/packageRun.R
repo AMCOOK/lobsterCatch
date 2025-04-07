@@ -1,6 +1,6 @@
-require(lobsterCatch)
 require(bio.lobster)
-
+require(devtools)
+load_all(file.path(git.repo,'lobsterCatch'))
 
 
 #initialize a parameter file to pass info into the code and then put all into a function
